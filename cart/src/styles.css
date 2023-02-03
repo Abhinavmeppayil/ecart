@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Oswald:wght@600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Sofia+Sans+Extra+Condensed:wght@100&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Oswald:wght@600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Prata&family=Sofia+Sans+Extra+Condensed:wght@100&display=swap');
+body{
+    /* font-family: 'Playfair Display', serif; */
+    /* font-family: 'Bebas Neue', cursive; */
+    font-family: 'Prata', serif;
+    margin-top: 120px;
+}
+.card-img-top{
+    width: 200px;
+    height: 300px;
+    /* margin: auto; */
+    transition: 0.5s;
+}
+.card-img-top:hover{
+    /* scale: 1.25s; */
+    transform: scale(1.25);
+    transition: 0.5s;
+}
+
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+/* .p1{
+margin-top: 150px;
+}
+
+.p2{
+
+}
+.p3{
+margin-top: 15px;
+} */
